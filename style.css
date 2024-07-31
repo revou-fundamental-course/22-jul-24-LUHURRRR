@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG9jZWFufGVufDB8fHx8MTY4ODE4MjY1Ng&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.main-title {
+    text-align: center;
+    padding: 20px;
+    background-color: silver;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.main-content-item {
+    background-color: lightgrey;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.main-content-banner {
+    height: 150px;
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG9jZWFufGVufDB8fHx8MTY4ODE4MjY1Ng&ixlib=rb-1.2.1&q=80&w=1080);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.item-icon {
+    height: 50px;
+    width: 50px;
+    background-color: #ccc;
+    margin: 10px 0;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form select, form button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
